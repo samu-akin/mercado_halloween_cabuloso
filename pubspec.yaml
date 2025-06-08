@@ -1,0 +1,15 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.0.5 # Para gerenciamento de estado
+
+flutter:
+  uses-material-design: true
+
+  # Para usar a fonte 'Nosifier', certifique-se de ter o arquivo TTF
+  # em 'assets/fonts/' dentro do seu projeto.
+  fonts:
+    - family: Nosifier
+      fonts:
+        - asset: assets/fonts/Nosifier-Regular.ttf
